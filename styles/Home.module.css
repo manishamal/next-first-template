@@ -119,3 +119,7 @@
     flex-direction: column;
   }
 }
+.is-background-color {
+  color: transparent;
+}
+
