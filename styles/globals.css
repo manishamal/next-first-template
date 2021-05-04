@@ -38,6 +38,9 @@ a {
 .is-size-3 {
   font-size:2rem;
 }
+.is-size-5 {
+  font-size:1.25rem;
+}
 .has-text-weight-semibold {
-  font-weight:  semi-bold;
+    weight: 600px !important;
 }
