@@ -40,7 +40,7 @@ const HomeHero = () => {
 
       <div className="hero-body">
         <div className="container has-text-centered">
-        <h1 className="is-size-3 has-text-weight-semibold">The new standard in insert industry here</h1>
+        <h1 className="is-size-3 has-text-weight-semibold`">The new standard in insert industry here</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
         </div>
