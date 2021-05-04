@@ -5,13 +5,33 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+.nav {
+  border: 2px solid !important;
+}
 a {
   color: inherit;
   text-decoration: none;
+}
+.button {
+  border-color: white !important;
+}
+.has-border-bottom {
+  border-bottom-color: #dbdbdb;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.button.is-link.is-outlined:hover  {
+  background-color: white !important;
+  color: black !important;
+}
+.navbar-item {
+  border-bottom: 2px solid #ffffff;
+}
+.navbar-item:hover {
+    border-bottom: 2px solid #000000;
+}
