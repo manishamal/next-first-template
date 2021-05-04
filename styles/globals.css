@@ -30,8 +30,14 @@ a {
   color: black !important;
 }
 .navbar-item {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 .navbar-item:hover {
-    border-bottom: 2px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+.is-size-3 {
+  font-size:2rem;
+}
+.has-text-weight-semibold {
+  font-weight:  semi-bold;
 }
