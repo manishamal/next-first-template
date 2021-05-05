@@ -42,5 +42,5 @@ a {
   font-size:1.25rem;
 }
 .has-text-weight-semibold {
-    weight: 600px !important;
+font-weight: semibold;
 }

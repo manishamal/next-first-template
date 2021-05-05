@@ -1,6 +1,6 @@
 const HomeHero = () => {
   return (
-    <section className="hero is-info is-large is-border">
+    <section className="hero is-info is-medium is-border">
       <div className="hero-head">
         <nav className="navbar ">
           <div className="container">
@@ -37,15 +37,24 @@ const HomeHero = () => {
           </div>
         </nav>
       </div>
-
       <div className="hero-body">
         <div className="container has-text-centered">
-        <h1 className="is-size-3 has-text-weight-semibold">The new standard in insert industry here</h1>
-          <p className="is-size-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h1 className="is-size-3 has-text-weight-semibold">
+            The new standard in insert industry here
+          </h1>
 
+          <div class="column is-three-fifths is-offset-one-fifth">
+            <p class=" is-primary is-size-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
         </div>
       </div>
     </section>
+
   );
 };
 export default HomeHero;
