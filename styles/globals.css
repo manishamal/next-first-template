@@ -44,3 +44,16 @@ a {
 .has-text-weight-semibold {
 font-weight: semibold;
 }
+.is-icon {
+  margin-left: 95px;
+    font-size: 157px;
+    color: #209cee;
+    padding: 32px 0px;
+}
+.is-font-color {
+  background: #EFF3F4
+}
+.is-margin {
+  margin-bottom: 44px;
+}
+
