@@ -1,19 +1,19 @@
 const features = [
   {
-    subtitle: 'Hello World',
-    description: 'What is up?',
+    title: 'Hello World',
+    subtitle: 'What is up?',
   },
   {
-    subtitle: 'dharmveer',
-    description: 'jkqhcuhvehvn',
+    title: 'dharmveer',
+    subtitle: 'jkqhcuhvehvn',
   },
   {
-    subtitle: 'cbsdjhsh',
-    description: 'jkqhcuhvehvn',
+    title: 'cbsdjhsh',
+    subtitle: 'jkqhcuhvehvn',
   },
   {
-    subtitle: 'cbsdjhsh',
-    description: 'jkqhcuhvehvn',
+    title: 'cbsdjhsh',
+    subtitle: 'jkqhcuhvehvn',
   },
 ];
 
@@ -22,11 +22,11 @@ const Gallary = () => {
     <section className="section">
       <div className="container">
         <div class="columns is-multiline">
-          {features.map((item) => (
+          {features.map((title) => (
             <div class="column is-4">
               <div class="box">
-                {item.subtitle}
-                <p className="subtitle  is-1">{item.description}</p>
+                {title.subtitle}
+                <p className="title is-1">{title.subtitle}</p>
               </div>
             </div>
           ))}
