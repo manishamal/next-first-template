@@ -56,4 +56,6 @@ font-weight: semibold;
 .is-margin {
   margin-bottom: 44px;
 }
-
+.is-padding {
+  padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+}
