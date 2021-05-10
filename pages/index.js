@@ -4,7 +4,7 @@ import Cards from '../components/Cards';
 import Info from '../components/Info';
 import Gallary from '../components/Gallary';
 import Category from '../components/Category';
-import Addpage from '../components/Addpage';
+
 
 const Index = () => {
   return (
@@ -15,7 +15,7 @@ const Index = () => {
       <Info />
       <Gallary />
       <Category />
-      <Addpage />
+
     </div>
   );
 };
