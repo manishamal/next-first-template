@@ -1,32 +1,38 @@
+const data1 = [
+  { icon: 'fas fa-home', list: 'tdyxetygrghh' },
+  { icon: 'fas fa-home', list: 'tdyxetygrghh' },
+  { icon: 'fas fa-home', list: 'tdyxetygrghh' },
+];
+
+const data2 = [
+  { icon: '', list: 'tdyxetygrghh' },
+  { icon: '', list: 'tdyxetygrghh' },
+  { icon: '', list: 'tdyxetygrghh' },
+  { icon: '', list: 'tdyxetygrghh' },
+];
+
 const Category = () => {
   return (
     <div className="category">
       <div className="container">
         <div className="columns">
-          <div className="column is-3">
-            <h3 className="has-text-weight-semibold">Category</h3>
+          <div className="column is-6">
+            <h1 className="title is-4 has-text-weight-semibold">Category</h1>
             <ul>
-              <li>
-                <i class="fas fa-cube"></i> Lorem ipsum dolor sit amet
-              </li>
-              <li>
-                <i class="fas fa-cube"></i> Vestibulum errato isse
-              </li>
-              <li>
-                <i class="fas fa-cube"></i> Lorem ipsum dolor sit amet
-              </li>
-              <li>
-                <i class="fas fa-cube"></i> Aisia caisia
-              </li>
-              <li>
-                <i class="fas fa-cube"></i> Murphy's law
-              </li>
-              <li>
-                <i class="fas fa-cube"></i> Flimsy Lavenrock
-              </li>
-              <li>
-                <i class="fas fa-cube"></i> Maven Mousie Lavender
-              </li>
+              {data1.map((item) => (
+                <li>
+                  <i class={item.icon}></i> {item.list}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="column is-6">
+            <ul>
+              {data2.map((item) => (
+                <li>
+                  <i class={item.icon}></i> {item.list}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
