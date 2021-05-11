@@ -62,3 +62,6 @@ font-weight: semibold;
 .has-color-blue {
   color: #209cee;
 }
+.has-color-blue:hover {
+  color: #4a4a4a;
+}

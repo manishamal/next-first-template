@@ -31,40 +31,42 @@ const Category = () => {
       <div className="container">
         <div className="columns">
           <div className="column is-4">
-            <h1 className="title is-4 has-text-weight-semibold ">Category</h1>
+            <h2 className="title is-5 has-text-weight-semibold  has-text-black">Category</h2>
             <ul>
               {data1.map((item) => (
-                <li>
-                  <i class={item.icon}></i> {item.list}
+                <li className="has-color-blue ">
+                  <i className={item.icon}></i> {item.list}
                 </li>
               ))}
             </ul>
           </div>
 
           <div className="column is-4">
-          <h1 className="title is-4 has-text-weight-semibold has-text-black">Category</h1>
+          <h2 className="title is-5 has-text-weight-semibold has-text-black">Category</h2>
             <ul>
               {data2.map((item) => (
-                <li>
-                  <i class={item.icon}></i> {item.list}
+                <li className="has-color-blue">
+                  <i className={item.icon}></i> {item.list}
                 </li>
               ))}
             </ul>
           </div>
 
           <div className="column is-4">
-          <h1 className="title is-4 has-text-weight-semibold has-text-black">Category</h1>
+          <h3 className="title is-5 has-text-weight-semibold has-text-black">Category</h3>
             <ul>
               {data3.map((item) => (
-                <li>
-                  <i class={item.icon}></i> {item.list}
+                <li className="has-color-blue">
+                  <i className={item.icon}></i> {item.list}
                 </li>
               ))}
             </ul>
           </div>
         </div>
       </div>
+    
     </div>
+
   );
 };
 export default Category;

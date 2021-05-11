@@ -35,7 +35,7 @@ const features = [
 
 const Gallary = () => {
   return (
-    <section className="section">
+    <section className="section is-font-color ">
       <div className="container">
         <div class="columns is-multiline">
           {features.map((item) => (

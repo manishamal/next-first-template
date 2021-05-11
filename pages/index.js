@@ -4,6 +4,7 @@ import Cards from '../components/Cards';
 import Info from '../components/Info';
 import Gallary from '../components/Gallary';
 import Category from '../components/Category';
+import Icon from '../components/Icon';
 
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <Info />
       <Gallary />
       <Category />
+      <Icon />
 
     </div>
   );
