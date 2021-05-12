@@ -54,7 +54,6 @@ const HomeHero = () => {
         </div>
       </div>
     </section>
-
   );
 };
 export default HomeHero;

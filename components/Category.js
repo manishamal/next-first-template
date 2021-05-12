@@ -27,46 +27,62 @@ const data3 = [
 
 const Category = () => {
   return (
-    <div className="category">
+    <div className="section">
       <div className="container">
-        <div className="columns">
-          <div className="column is-4">
-            <h2 className="title is-5 has-text-weight-semibold  has-text-black">Category</h2>
+        <div className="columns is-centered">
+          <div className="column is-3">
+            <h2 className="title is-5 has-text-weight-semibold  has-text-black">
+              Category
+            </h2>
             <ul>
               {data1.map((item) => (
                 <li className="has-color-blue ">
-                  <i className={item.icon}></i> {item.list}
+                  <i className={item.icon}></i>
+                  <span className="list-item has-color-blue">
+                    {' '}
+                    {item.list}{' '}
+                  </span>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="column is-4">
-          <h2 className="title is-5 has-text-weight-semibold has-text-black">Category</h2>
+          <div className="column is-3">
+            <h2 className="title is-5 has-text-weight-semibold has-text-black">
+              Category
+            </h2>
             <ul>
               {data2.map((item) => (
                 <li className="has-color-blue">
-                  <i className={item.icon}></i> {item.list}
+                  <i className={item.icon}></i>
+                  <span className="list-item has-color-blue">
+                    {' '}
+                    {item.list}{' '}
+                  </span>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="column is-4">
-          <h3 className="title is-5 has-text-weight-semibold has-text-black">Category</h3>
+          <div className="column is-3">
+            <h3 className="title is-5 has-text-weight-semibold has-text-black">
+              Category
+            </h3>
             <ul>
               {data3.map((item) => (
-                <li className="has-color-blue">
-                  <i className={item.icon}></i> {item.list}
+                <li className=" list has-color-blue">
+                  <i className={item.icon}></i>
+                  <span className="list-item has-color-blue">
+                    {' '}
+                    {item.list}{' '}
+                  </span>
                 </li>
               ))}
             </ul>
           </div>
         </div>
       </div>
-    
     </div>
-
   );
 };
 export default Category;
