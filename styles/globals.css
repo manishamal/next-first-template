@@ -64,6 +64,9 @@ font-weight: semibold;
 .has-color-blue {
   color: #3273dc;
 }
+.has-background-color-blue {
+  background-color : #3298dc;
+}
 .list-item:hover {
   color: #4a4a4a;
   transition: 2s;
@@ -71,3 +74,7 @@ font-weight: semibold;
 .has-justify-centered {
   justify-content: center!important
 }
+.is-list-style {
+  list-style: circle !important;
+}
+

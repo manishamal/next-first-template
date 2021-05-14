@@ -6,7 +6,6 @@ import Gallary from '../components/Gallary';
 import Category from '../components/Category';
 import Icon from '../components/Icon';
 
-
 const Index = () => {
   return (
     <div>
@@ -17,7 +16,6 @@ const Index = () => {
       <Gallary />
       <Category />
       <Icon />
-
     </div>
   );
 };

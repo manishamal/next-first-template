@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const HomeHero = () => {
   return (
     <section className="hero is-info is-medium is-border">
@@ -19,8 +21,12 @@ const HomeHero = () => {
             </div>
             <div id="navbarMenuHeroB" className="navbar-menu">
               <div className="navbar-end">
-                <a className="navbar-item">Home</a>
-                <a className="navbar-item">Examples</a>
+                <Link href="/">
+                  <a className="navbar-item">Home</a>
+                </Link>
+                <Link href="/examples">
+                  <a className="navbar-item">Examples</a>
+                </Link>
                 <a className="navbar-item">Features</a>
                 <a className="navbar-item">Team</a>
                 <a className="navbar-item">Help</a>
