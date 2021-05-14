@@ -46,10 +46,11 @@ a {
 font-weight: semibold;
 }
 .is-icon {
-  margin-left: 95px;
+  width: 100px !important;
+    margin: 0px auto !important;
     font-size: 157px;
     color: #209cee;
-    padding: 32px 0px;
+
 }
 .is-font-color {
   background: #EFF3F4

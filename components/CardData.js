@@ -1,7 +1,7 @@
 const CardData = ({ icon, title, subtitle }) => {
   return (
     <div class="card">
-      <div class="card-image">
+      <div class="card-image is-icon">
         <i class={icon}></i>
       </div>
       <div class="card-content">
