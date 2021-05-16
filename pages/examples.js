@@ -1,7 +1,7 @@
 const examples = () => {
   return (
-    <section className="section has-background-color-blue has-text-white">
-      <div className="container ">
+    <section className="section has-background-color-blue has-text-white is-fullheight  ">
+      <div className="container  ">
         <div className="example">
           <h1 class="title is-1 has-text-white">Examples :-</h1>
           <p className="is-size-5">
