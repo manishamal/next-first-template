@@ -1,12 +1,11 @@
 const data1 = [
-  { icon: 'fas fa-pager', title: 'Landing pages' },
-  { icon: 'fas fa-envelope-open-text', title:'Email sign up forms'},
-  { icon: 'fas fa-envelope-square',title:'Email designer' },
-  { icon: 'fas fa-pager', title:'Email automation' },
-  { icon: 'fas fa-cog',title:'Integration'
-  description1:'gtgtgtgtgtg' },
+  { icon: 'fas fa-pager', title: 'Landing pages'
+    para1:"ghjuhjkij" },
+  { icon: 'fas fa-envelope-open-text', title: 'Email sign up forms' },
+  { icon: 'fas fa-envelope-square', title: 'Email designer' },
+  { icon: 'fas fa-pager', title: 'Email automation' },
+  { icon: 'fas fa-cog', title: 'Integration' },
 ];
-
 
 const features = () => {
   return (
@@ -38,14 +37,14 @@ const features = () => {
                     <div class="media-content">
                       <i class={item.icon}></i>
                       <p class="title is-4">{item.title}</p>
-                      <p className="subtitle is-6 has-text-black">
-                  {item.description1}</p>
                     </div>
                   </div>
 
                   <div class="content">
-                  Create free web pages to share your projects and ideas.
-
+                    Create free web pages to share your projects and ideas.
+                    <p className="subtitle is-6 has-text-black">
+                  {item.para1},
+                </p>
                   </div>
                 </div>
               </div>
