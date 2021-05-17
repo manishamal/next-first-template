@@ -27,7 +27,9 @@ const HomeHero = () => {
                 <Link href="/examples">
                   <a className="navbar-item">Examples</a>
                 </Link>
-                <a className="navbar-item">Features</a>
+                <Link href="/features">
+                  <a className="navbar-item">Features</a>
+                </Link>
                 <a className="navbar-item">Team</a>
                 <a className="navbar-item">Help</a>
 

@@ -77,4 +77,6 @@ font-weight: semibold;
 .is-list-style {
   list-style: circle !important;
 }
-
+.is-icon-color {
+  color:blue !important;
+}
