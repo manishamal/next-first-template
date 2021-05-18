@@ -1,10 +1,29 @@
 const data1 = [
-  { icon: 'fas fa-pager', title: 'Landing pages'
-    para1:"ghjuhjkij" },
-  { icon: 'fas fa-envelope-open-text', title: 'Email sign up forms' },
-  { icon: 'fas fa-envelope-square', title: 'Email designer' },
-  { icon: 'fas fa-pager', title: 'Email automation' },
-  { icon: 'fas fa-cog', title: 'Integration' },
+  {
+    icon: 'fas fa-pager',
+    title: 'Landing pages',
+    para1: ' Create free web pages to share your projects and ideas.',
+  },
+  {
+    icon: 'fas fa-envelope-open-text',
+    title: 'Email sign up forms',
+    para2: 'collect email list subscribers on your website.',
+  },
+  {
+    icon: 'fas fa-envelope-square',
+    title: 'Email designer',
+    para3: 'Write simple, beautiful email.',
+  },
+  {
+    icon: 'fas fa-pager',
+    title: 'Email automation',
+    para4: 'Build a path for your subscribers & Send content automatically.',
+  },
+  {
+    icon: 'fas fa-cog',
+    title: 'Integration',
+    para5: 'connect to your favorite tools.',
+  },
 ];
 
 const features = () => {
@@ -41,10 +60,21 @@ const features = () => {
                   </div>
 
                   <div class="content">
-                    Create free web pages to share your projects and ideas.
+                    <p className="subtitle is-6 has-text-black">{item.para1}</p>
+
+                    <p className="subtitle is-6 has-text-black">{item.para2}</p>
+
                     <p className="subtitle is-6 has-text-black">
-                  {item.para1},
-                </p>
+                      {item.para3}
+
+                      <p className="subtitle is-6 has-text-black">
+                        {item.para4}
+                      </p>
+
+                      <p className="subtitle is-6 has-text-black">
+                        {item.para5}
+                      </p>
+                    </p>
                   </div>
                 </div>
               </div>

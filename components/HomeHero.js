@@ -30,8 +30,12 @@ const HomeHero = () => {
                 <Link href="/features">
                   <a className="navbar-item">Features</a>
                 </Link>
-                <a className="navbar-item">Team</a>
+                <Link href="/team">
+                  <a className="navbar-item">Team</a>
+                </Link>
+                <Link href="/help">
                 <a className="navbar-item">Help</a>
+                </Link>
 
                 <span className="navbar-item">
                   <a className="button has-text-white is-link is-outlined">
